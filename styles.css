@@ -1,0 +1,266 @@
+*{
+    margin:0px;
+    
+}
+#container{
+    height:auto;
+    width:95%;
+    margin:auto;
+}
+#header{
+    height:60px;
+    background-color: white;
+}
+#logo{
+    height: 80px;
+    transition: 1s;
+}
+#logo:hover{
+    transform: rotate(360deg);
+}
+#header_content{
+    position:absolute;
+    margin-top: 15px;
+    font-size: 30px;
+}
+#nav{
+    z-index: 1;
+    position: sticky;
+    top:0;
+    height:50px;
+    background-color: #FFCF9D;
+}
+#nav ul{
+    list-style: none;
+    padding: 10px;
+}
+#nav ul li{
+    display: inline;
+}
+#nav ul li a{
+    color:white;
+    font-family: candara;
+    font-size: 20px;
+    margin-left:88px;
+    text-decoration: none;
+}
+#nav ul li a:hover{
+    color:black;
+}
+#nav ul li ul{
+    display: none;
+}
+#nav ul li:hover ul{
+    display: block;
+    position: absolute;
+    background-color: #FFCF9D;
+    width: 150px;
+    margin-left: 250px;
+}
+#nav ul li ul li{
+    margin-left: -80px;
+    line-height: 45px;
+}
+#image{
+    height: 500px;
+}
+#banner_img{
+    height: 500px;
+    width: 100%;
+}
+#contentarea{
+    
+    height:200px;
+    padding: 80px;
+    font-size: 20px;
+    text-align: justify;
+}
+#box{
+    height:255px;
+    padding: 41px;
+    background-color:#FFCF9D;
+}
+#box1,#box2,#box3,#box4,#box5,#box6{
+    height:280px;
+    width:180px;
+    margin: 6px;
+    float: left;
+    
+}
+#boximg{
+    height:230px;
+    width:180px;
+    float: left;
+    
+} 
+
+#Feature-box{
+    margin-top: 150px;
+    height:255px;
+    padding: 37px;
+    background-color:white;
+    
+}
+#Fbox1,#Fbox2,#Fbox3,#Fbox4,#Fbox5,#Fbox6{
+    height:235px;
+    width:160px;
+    margin: 10px;
+    float: left;
+
+}
+#Fboximg{
+    height:200px;
+    width:150px;
+    float: left;
+    border-radius: 60px;
+    
+   } 
+#footer{
+
+    margin-top: 150px;
+    height:200px;
+    padding: 37px;
+    background-color:silver;
+    
+}
+#footer1,#footer2,#footer3{
+    height: 200px;
+    width:250px;
+    margin: 10px;
+    padding: 40px;
+    float: left;
+    
+
+}
+#Category1{
+    margin-top: 50px;
+    height:400px;
+    margin: 15px;
+   font-size: 20px;
+   
+} 
+#Category_img{
+    margin-top: 20px;
+    height: 400px;
+    width: 100%;
+    
+}
+#Category2{
+    margin-top: 10px;
+    height: 600px;
+    width: 100%;
+   
+}
+#category3{
+    margin-top: 10px;
+    height: 500px;
+    width: 100%;
+    
+}
+#C_box1,#C_box2,#C_box3,#C_box4,#C_box5,#C_box6{
+    margin-top: 200px;
+    height:300 px;
+    width: 200px;
+     float: left;
+    
+}
+#cboximg{
+    margin-top: 10px;
+    height: 250;
+    width: 150px;
+    float: left;
+    /* list-style: none; */
+    text-decoration: none;
+
+}
+#container4{
+    margin-top: 400px;
+    height: 250px;
+    padding: 20px;
+}
+#container_img{
+    margin-top: 20px;
+    height: 200;
+    width: 100%;
+    padding: 20px;
+    font-size: 40px;
+   
+}
+#category4{
+    margin-top: 30px;
+    height: 300px;
+    padding: 25px;
+}
+#Woodenbox1,#Woodenbox2,#Woodenbox3,#Woodenbox4,#Woodenbox5,#Woodenbox6{
+    margin-top: 300px;
+    height:280px;
+    width: 250;
+    padding: 8px;
+    float: left;
+    margin-bottom: 70px;
+
+}
+#WoodenImg{
+    margin-top: 20px;
+    height:250px ;
+    width: 160px ;
+    padding: 13px;
+    float:left ;
+}
+#category5{
+    margin-top: 40px;
+    height: 300px;
+    padding: 25px;
+    font-size: 25px;
+}
+#carbox1,#carbox2,#carbox3,#carbox4,#carbox5,#carbox6{
+    margin-top: 20px;
+    height:280px;
+    width: 250;
+    padding: 8px;
+    float: left;
+
+}
+#carImg{
+    margin-top: 20px;
+    height:250px ;
+    width: 160px ;
+    padding: 13px;
+    float:left ;
+}
+#Contact{
+    margin-top: 50px;
+    height: 400px;
+    font-size: 25px;
+    color: black;
+}
+#About{
+    margin-top: 50px;
+    height: 400px;
+    font-size: 25px;
+    font-family: arial;
+    color: black; 
+}
+#Gallery{
+    margin-top: 20px;
+    height: 1540px;
+    background-color:#FFCF9D;
+    
+}
+#Gallerybox1,#Gallerybox2,#Gallerybox3,#Gallerybox4,#Gallerybox5,#Gallerybox6,#Gallerybox7,#Gallerybox8,#Gallerybox9,#Gallerybox10,#Gallerybox11,#Gallerybox12,#Gallerybox13,#Gallerybox14,#Gallerybox15,#Gallerybox16{
+    margin-top: 20px;
+    height: 300;
+    width: 180;
+    padding: 24px;
+    margin-top: 20px;
+     float: left;
+
+}
+#gimg{
+    margin-top: 10px;
+    height: 300;
+    width: 150;
+    padding: 20px;
+    float: left;
+    border-radius: 150px;
+}
